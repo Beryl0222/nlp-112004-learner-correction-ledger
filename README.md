@@ -7,7 +7,7 @@
 全部为 UTF-8 编码的合成业务资料。`data/contract.json` 中的列类型带 `?` 时可以是 JSON null。每组记录的 `id` 在该组中唯一，跨组关系以字段说明和清单的 `links` 为准。文字字段保留来源原句，嵌套对象按表中现有格式记录。
 
 - `data/skills.json`。班级当季能力标准，requires 为前置技能。minIndependent 为不同题目上的独立证据数。
-- `data/exercises.json`。课内练习原题。requiredFacts 为本题需要确实表达的已知事实，forms 为允许的表达。
+- `data/exercises.json`。课内练习原题。requiredFacts 为该次练习需要确实表达的已知事实，forms 为允许的表达。
 - `data/writing.json`。课内手稿与改写事实。prev 为上一稿；helpSeen 是学生打开过的题内提示索引，从零开始。
 - `data/teacher.json`。实际批阅历史，有确认、撤回和请求调查。
 - `data/schedule.json`。教务记录用于区分已完成与仍可安排的活动。window 决定可挪动时段。
