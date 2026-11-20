@@ -1,0 +1,46 @@
+[
+  {
+    "id": "subject-ref",
+    "name": "有上下文的省略主语",
+    "minIndependent": 2,
+    "requires": []
+  },
+  {
+    "id": "ba-complete",
+    "name": "把字句与趋向结果",
+    "minIndependent": 2,
+    "requires": [
+      "subject-ref"
+    ]
+  },
+  {
+    "id": "bei-focus",
+    "name": "被字句转移叙述焦点",
+    "minIndependent": 2,
+    "requires": [
+      "subject-ref"
+    ]
+  },
+  {
+    "id": "reported",
+    "name": "区分引用中的人称",
+    "minIndependent": 2,
+    "requires": []
+  },
+  {
+    "id": "scope-negative",
+    "name": "否定辖域",
+    "minIndependent": 2,
+    "requires": [
+      "reported"
+    ]
+  },
+  {
+    "id": "serial",
+    "name": "连动与动作目的",
+    "minIndependent": 1,
+    "requires": [
+      "ba-complete"
+    ]
+  }
+]

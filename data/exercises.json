@@ -1,0 +1,95 @@
+[
+  {
+    "id": "e1",
+    "question": "你准备结束活动。用把字句说清楚你把红伞放到了哪里。",
+    "requiredFacts": [
+      "红伞",
+      "楼下柜子"
+    ],
+    "forms": [
+      "把字句",
+      "语境可省略第一人称"
+    ],
+    "skills": [
+      "ba-complete",
+      "subject-ref"
+    ],
+    "hints": [
+      "我把红伞放进楼下柜子里。"
+    ]
+  },
+  {
+    "id": "e2",
+    "question": "把姐姐的原话和你自己做的事分别说清楚。",
+    "requiredFacts": [
+      "姐姐说关门",
+      "我关窗"
+    ],
+    "forms": [
+      "直接引语",
+      "间接引语"
+    ],
+    "skills": [
+      "reported",
+      "subject-ref"
+    ],
+    "hints": [
+      "先说姐姐说什么，再说你做了什么。"
+    ]
+  },
+  {
+    "id": "e3",
+    "question": "换成被字句，从彩灯的角度说清谁取走它。",
+    "requiredFacts": [
+      "老师取走彩灯",
+      "彩灯原在门边"
+    ],
+    "forms": [
+      "被字句"
+    ],
+    "skills": [
+      "bei-focus"
+    ],
+    "hints": [
+      "彩灯被……取走了。"
+    ]
+  },
+  {
+    "id": "e4",
+    "question": "你没有把两本书都带走。用一句话交代早上只带走哪本。",
+    "requiredFacts": [
+      "蓝本带走",
+      "绿本留下"
+    ],
+    "forms": [
+      "范围否定",
+      "先肯定后否定"
+    ],
+    "skills": [
+      "scope-negative",
+      "ba-complete"
+    ],
+    "hints": [
+      "别把‘两本都没’写成‘没把两本都’。"
+    ]
+  },
+  {
+    "id": "e5",
+    "question": "描述演出后你怎么搬椅子，要写清是为了腾出过道。",
+    "requiredFacts": [
+      "灰椅搬到角落",
+      "目的是腾过道"
+    ],
+    "forms": [
+      "连动",
+      "把字句"
+    ],
+    "skills": [
+      "serial",
+      "ba-complete"
+    ],
+    "hints": [
+      "腾出过道，可以放在句尾。"
+    ]
+  }
+]

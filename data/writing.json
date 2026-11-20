@@ -1,0 +1,84 @@
+[
+  {
+    "id": "w1",
+    "student": "阿洛",
+    "exercise": "e1",
+    "prev": null,
+    "at": "2026-11-03T09:01:00+08:00",
+    "source": "自写",
+    "note": "姐姐喊：‘把红伞放楼下柜子！’我就去收伞了。",
+    "helpSeen": []
+  },
+  {
+    "id": "w2",
+    "student": "阿洛",
+    "exercise": "e1",
+    "prev": "w1",
+    "at": "2026-11-03T09:06:00+08:00",
+    "source": "自写",
+    "note": "我把红伞放进楼下柜子里。",
+    "helpSeen": [
+      0
+    ]
+  },
+  {
+    "id": "w3",
+    "student": "阿洛",
+    "exercise": "e4",
+    "prev": null,
+    "at": "2026-11-10T10:08:00+08:00",
+    "source": "自写",
+    "note": "我没把两本都带走，只把蓝的带了，绿本留在这儿。",
+    "helpSeen": []
+  },
+  {
+    "id": "w4",
+    "student": "阿洛",
+    "exercise": "e5",
+    "prev": null,
+    "at": "2026-11-17T10:07:00+08:00",
+    "source": "自写",
+    "note": "为了腾过道，把灰椅搬到角落去。",
+    "helpSeen": []
+  },
+  {
+    "id": "w5",
+    "student": "阿洛",
+    "exercise": "e5",
+    "prev": "w4",
+    "at": "2026-11-17T10:10:00+08:00",
+    "source": "自写",
+    "note": "老师说‘把灰椅搬到角落去’，我把灰椅拖到走廊，空出门口。",
+    "helpSeen": []
+  },
+  {
+    "id": "w6",
+    "student": "沐雨",
+    "exercise": "e2",
+    "prev": null,
+    "at": "2026-11-03T09:04:00+08:00",
+    "source": "自写",
+    "note": "姐姐说她关门，关了窗。",
+    "helpSeen": []
+  },
+  {
+    "id": "w7",
+    "student": "沐雨",
+    "exercise": "e3",
+    "prev": null,
+    "at": "2026-11-17T09:05:00+08:00",
+    "source": "自写",
+    "note": "门边的彩灯被老师拿走，后来挂在正门。",
+    "helpSeen": []
+  },
+  {
+    "id": "w8",
+    "student": "沐雨",
+    "exercise": "e4",
+    "prev": null,
+    "at": "2026-11-17T10:04:00+08:00",
+    "source": "自写",
+    "note": "我把蓝本捎去了，绿本没带。",
+    "helpSeen": []
+  }
+]

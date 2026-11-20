@@ -1,0 +1,69 @@
+{
+  "skills": {
+    "columns": {
+      "id": "string",
+      "name": "string",
+      "minIndependent": "integer",
+      "requires": "array"
+    },
+    "links": {
+      "requires": "skills"
+    }
+  },
+  "exercises": {
+    "columns": {
+      "id": "string",
+      "question": "string",
+      "requiredFacts": "array",
+      "forms": "array",
+      "skills": "array",
+      "hints": "array"
+    },
+    "links": {
+      "skills": "skills"
+    }
+  },
+  "writing": {
+    "columns": {
+      "id": "string",
+      "student": "string",
+      "exercise": "string",
+      "prev": "string?",
+      "at": "string",
+      "source": "string",
+      "note": "string",
+      "helpSeen": "array"
+    },
+    "links": {
+      "exercise": "exercises",
+      "prev": "writing"
+    }
+  },
+  "teacher": {
+    "columns": {
+      "id": "string",
+      "writing": "string",
+      "at": "string",
+      "action": "string",
+      "note": "string"
+    },
+    "links": {
+      "writing": "writing"
+    }
+  },
+  "schedule": {
+    "columns": {
+      "id": "string",
+      "student": "string",
+      "skill": "string",
+      "activity": "string",
+      "state": "string",
+      "window": "string",
+      "basedOn": "array"
+    },
+    "links": {
+      "skill": "skills",
+      "basedOn": "writing"
+    }
+  }
+}

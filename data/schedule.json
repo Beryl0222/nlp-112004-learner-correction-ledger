@@ -1,0 +1,36 @@
+[
+  {
+    "id": "v1",
+    "student": "阿洛",
+    "skill": "ba-complete",
+    "activity": "给上一届同学讲二选一的写法",
+    "state": "已完成",
+    "window": "第46周",
+    "basedOn": [
+      "w3",
+      "w4"
+    ]
+  },
+  {
+    "id": "v2",
+    "student": "阿洛",
+    "skill": "serial",
+    "activity": "安排两步活动口述",
+    "state": "待安排",
+    "window": "第48周",
+    "basedOn": [
+      "w4"
+    ]
+  },
+  {
+    "id": "v3",
+    "student": "沐雨",
+    "skill": "scope-negative",
+    "activity": "从互补答案说明否定范围",
+    "state": "待安排",
+    "window": "第47周",
+    "basedOn": [
+      "w8"
+    ]
+  }
+]
